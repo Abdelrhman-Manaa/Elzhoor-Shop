@@ -1,0 +1,106 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-image:url("back\ 50.jpg");
+    opacity: 100%;
+    background-size: cover;
+    background-position: center; 
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar
+{ 
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav
+{
+    flex:1;
+    text-align: right;
+}
+nav ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+
+}
+.row 
+{
+    display: flex;
+    height:88% ;
+    align-items: center;
+}
+.col
+{
+    flex-basis: 50%;
+}
+
+h1
+{
+    color: rgb(19, 18, 18);
+    font-size: 32px;
+
+}
+h5
+{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+p{
+    color:rgb(13, 14, 13);
+    font-size: 25px;
+    line-height: 50px;
+}
+.card
+{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    
+}
+.men
+{
+    background-image: url("man1.png") ;
+}
+
+.women
+{
+    background-image: url("women1.png");
+}
+.gym{
+    background-image: url("gym1.png");
+}
+.kids
+{
+    background-image: url("kids1.png");
+
+}
+.card:hover
+{
+    transform: scale(1.1);
+}
